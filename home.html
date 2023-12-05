@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arjun Ojha - Portfolio</title>
+</head>
+<body>
+
+    <div id="home" class="landing">
+        <div class="overlay">
+            <h1>Hi, I am Arjun Ojha</h1>
+            <p class="subtitle">Developer | Designer</p>
+            <div class="social-links">
+                <a href="https://x.com/arjunojhaa" target="_blank"><img src="https://imgs.search.brave.com/MosVk1Fj3iuFiMjRjUBRVErO6o-gKyjR1RUf_E4CIic/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hYm91/dC50d2l0dGVyLmNv/bS9jb250ZW50L2Rh/bS9hYm91dC10d2l0/dGVyL3gvYnJhbmQt/dG9vbGtpdC9sb2dv/LWJsYWNrLnBuZy50/d2ltZy4xOTIwLnBu/Zw" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/arjunojha" target="_blank"><img src="https://imgs.search.brave.com/22nZ5krpIn25Wz8psj6H7l89M9AoVD2UgHLHBsy3i4M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvbGlua2VkSW4v/c21hbGwvbGlua2Vk/SW5fUE5HMzkucG5n" alt="LinkedIn"></a>
+                <a href="https://github.com/7arj" target="_blank"><img src="https://imgs.search.brave.com/KXL45Ky6mn4L5JZiL_5V069ITX6UnIz6ZTlN8LGDJfI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg" alt="GitHub"></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Date of Birth: July 30th, 2004</p>
+            <p>Education: 10+2</p>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div id="map"></div>
+            <p>Phone: +91 8619295323</p>
+            <p>Email: arjunojha2004@gmail.com</p>
+            <form id="contact-form">
+                <label for="message">Send me a message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
